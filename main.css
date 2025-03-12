@@ -1,5 +1,5 @@
 @import url(https://cdn.jsdelivr.net/gh/BowDown097/RevertDiscordFont/font.css); /* The font for older Discord clients */
-@import url(https://raw.githubusercontent.com/n1d3v/Revert-22/refs/heads/main/imgs.css); /* Revert some of the icons like emojis in chatbox */
+@import url(https://raw.githubusercontent.com/davart154/Themes/refs/heads/main/Icon%20Revert%202023/2023%20Icon%20Revert.css); /* Revert all of the icons pre-2023 */
 
 :root {
     --default-profile-background: #111214;
