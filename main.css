@@ -1,0 +1,18 @@
+@import url(https://cdn.jsdelivr.net/gh/BowDown097/RevertDiscordFont/font.css); /* The font for older Discord clients */
+@import url(https://raw.githubusercontent.com/n1d3v/Revert-22/refs/heads/main/imgs.css); /* Revert some of the icons like emojis in chatbox */
+
+/* Hide a bunch of shit cluttered up in the Discord client that wasn't there */
+.channelAppLauncher_e6e74f,
+.footer__214dc,
+[class^="profileEffects"],
+svg[class^="avatarDecoration"],             
+img[class^="avatarDecoration"],
+li div a[href="/shop"],
+[class^="container_e5a9ed"],
+.container__675e5,
+.container__8279f,
+[class*="membersGroup_"][class*="container_"]:nth-of-type(1),
+[class*="container_"][class*="openOnHover_"],
+.footer__537ec {
+    display: none;
+}
