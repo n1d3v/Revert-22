@@ -1,6 +1,10 @@
 @import url(https://cdn.jsdelivr.net/gh/BowDown097/RevertDiscordFont/font.css); /* The font for older Discord clients */
 @import url(https://raw.githubusercontent.com/n1d3v/Revert-22/refs/heads/main/imgs.css); /* Revert some of the icons like emojis in chatbox */
 
+:root {
+    --default-profile-background: #111214;
+}
+
 /* Hide a bunch of shit cluttered up in the Discord client that wasn't there */
 .channelAppLauncher_e6e74f,
 .footer__214dc,
@@ -15,4 +19,10 @@ li div a[href="/shop"],
 [class*="container_"][class*="openOnHover_"],
 .footer__537ec {
     display: none;
+}
+
+/* Probably not the best solution for now, it looks a bit weird. */
+.custom-profile-theme {
+  --profile-gradient-primary-color: var(--default-profile-background) !important;
+  --profile-gradient-secondary-color: var(--default-profile-background) !important;
 }
